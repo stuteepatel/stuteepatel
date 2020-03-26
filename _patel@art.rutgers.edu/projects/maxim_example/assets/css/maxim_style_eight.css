@@ -1,0 +1,91 @@
+body {
+    background: #FFC84D
+}
+
+h2 {
+            color: #FF9717;
+    font-size: 80px;
+  font-family: 'Oswald';
+    right: 70px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    bottom: 70px;
+}
+
+h3 {
+           color: #FF9717;
+    font-size: 80px;
+   font-family: 'Oswald';
+    left: 70px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    bottom: 70px;
+}
+
+
+p {
+   font-family: 'Oswald';
+    font-size: 80px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #FF5C1D;
+}
+
+.fire {
+font-family: 'Oswald';
+    font-size: 80px;
+    text-align: center;
+    padding: 0;
+    margin-top: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-style: italic;
+    font-weight: bold;
+    color: #313131;
+    font-size: 45px;
+    position: absolute;
+    -webkit-animation: colorchange 6s infinite alternate;
+}
+
+
+@-webkit-keyframes colorchange {
+    0% {
+
+        color: #FFC00A;
+    }
+
+    20% {
+
+        color: #FF9717;
+    }
+  
+    40% {
+
+        color: #FFC00A;
+    }
+
+    60% {
+
+        color: #FF9717;
+    }
+    70% {
+
+        color: #EB5A23;
+    }
+
+    100% {
+        color: #FF1C1C;
+    }

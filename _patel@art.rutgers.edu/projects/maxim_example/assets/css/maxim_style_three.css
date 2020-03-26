@@ -1,0 +1,91 @@
+div {
+    font-size: 80px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #66562D;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+}
+
+
+h2 {
+    color: #66562D;
+    font-size: 80px;
+    font-family: 'Acme', sans-serif;
+    right: 70px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    bottom: 70px;
+}
+
+h3 {
+    color: #66562D;
+    font-size: 80px;
+    font-family: 'Acme', sans-serif;
+    left: 70px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    bottom: 70px;
+}
+
+body {
+    background: #FFEBB9;
+      bottom: 70px;
+}
+
+
+infinite {
+    animation-timing-function: ease-in-out;
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    transform: rotate(3deg);
+    transform: rotate(0.3rad);
+    /* transform: rotate(3grad); */
+    /* transform: rotate(.03turn);  */
+}
+
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+span {
+     display: inline-block;
+ }
+
+ .move {
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-duration: 4s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+ }
+
+@keyframes move {
+     0% {
+         transform: translateX(vh);
+     }
+     100% {
+         transform: translateX(70vh);
+     }
+ }

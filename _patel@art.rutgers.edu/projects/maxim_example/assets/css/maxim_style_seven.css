@@ -1,0 +1,80 @@
+body {
+    background-color: #BBCEEA;
+    justify-content: center;
+    align-content: center;
+     top: 50%;
+    left: 50%;
+}
+
+p {
+    font-family: 'Passion One';
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #344866;
+}
+
+h2 {
+    color: #344866;
+    font-size: 80px;
+    font-family: 'Passion One';
+    right: 70px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    bottom: 70px;
+}
+
+h3 {
+    color: #344866;
+    font-size: 80px;
+    font-family: 'Passion One';
+    left: 70px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    bottom: 70px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: calc(50vh - 50px);
+    left: calc(50% - 50px);
+    background-color: #75A2E6;
+    border-radius: 50%;
+    transition: all .2 ease-in-out;
+    animation-duration: 5s;
+    animation-name: createBox;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    opacity: .4
+}
+
+@keyframes createBox {
+    from {
+        transform: scale(2);
+
+    }
+
+    to {
+        transform: scale(6);
+    }
+}

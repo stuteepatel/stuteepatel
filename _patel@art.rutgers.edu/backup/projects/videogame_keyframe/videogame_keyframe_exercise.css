@@ -1,0 +1,53 @@
+/*RESETS*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*The code above resets box-sizing & margins and padding on all elements*/
+/*Your CSS code goes below*/
+
+
+body {
+    background-color: #6DDAF2;
+    height: 100vh;
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+}
+
+img {
+    width: 500px;
+    
+}
+
+
+
+.r {
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction:normal;
+    animation-timing-function: linear;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(178vh);
+    }
+
+    100% {
+        transform: translateX(-50vw);
+    }
+}

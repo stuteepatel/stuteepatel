@@ -1,0 +1,64 @@
+body {
+    background: #FFDD94;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+
+
+h2 {
+    color: #EB967B;
+    font-size: 80px;
+    font-family: 'Caladea';
+    right: 70px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    bottom: 70px;
+}
+
+h3 {
+    color: #EB967B;
+    font-size: 80px;
+    font-family: 'Caladea';
+    left: 70px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    bottom: 70px;
+}
+
+p {
+    color: #EB967B;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 80px;
+
+
+}
+
+
+span {
+    font-style: italic;
+    color: floralwhite;
+}
+
+
+
+span:hover{
+    opacity: 0;
+     transition: opacity 1s ease;
+}

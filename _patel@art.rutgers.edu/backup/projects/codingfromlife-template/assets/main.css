@@ -1,0 +1,154 @@
+body {
+    background: lavender;
+}
+
+/* do NOT modify the canvas */
+
+.canvas {
+    width: 900px;
+    height: 556px;
+    margin: 100px auto;
+    background: white;
+    position: relative;
+}
+
+/* modify the assets below */
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid yellow;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+}
+
+#square {
+    width: 200px;
+    height: 275px;
+    background-color: lightblue;
+    top: 185px;
+    left: 250px;
+    position: absolute;
+}
+
+#circle {
+    width: 200px;
+    height: 50px;
+    background: blue;
+    border-radius: 50%;
+    top: 160px;
+    left: 250px;
+    position: absolute;
+}
+#happyface {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    top: 60px;
+    left: 350px;
+    position: absolute;
+}
+#happyfaceone {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    top: 60px;
+    left: 320px;
+    position: absolute;
+}
+#circletwo {
+    width: 200px;
+    height: 50px;
+    background: darkblue;
+    border-radius: 50%;
+    top: 180px;
+    left: 250px;
+    position: absolute;
+}
+
+#bottlerim {
+    width: 200px;
+    height: 20px;
+    background-color: darkblue;
+    top: 185px;
+    left: 250px;
+    position: absolute;
+}
+
+#bottlebottom {
+    width: 200px;
+    height: 50px;
+    background: lightblue;
+    border-radius: 50%;
+    top: 440px;
+    left: 250px;
+    position: absolute;
+}
+
+#line {
+    width: 600px;
+    height: 5px;
+    background: #478036;
+    top: 525px;
+    left: 70px;
+    position: absolute;
+
+}
+
+#line2 {
+    width: 5px;
+    height: 119px;
+    background: #478036;
+    top: 90px;
+    left: 350px;
+    position: absolute;
+}
+
+#egg {
+    width: 50px;
+    height: 30px;
+    top: 120px;
+    left: 300px;
+    background-color: #64805C;
+    border-radius: 80% 30% 50% 50% / 60% 20% 90% 50%;
+    position: absolute;
+    transform: rotate(45deg);
+
+}
+#base {
+    width: 900px;
+    height: 150px;
+    background-color:#FAD626;
+    top: 425px;
+    position: absolute;
+}
+
+ #flowertwo {
+     background: linear-gradient(to bottom, #EB6B60 0%, #F78F9A 100%);
+      width: 80px;
+     left: 315px;
+     top: 30px;
+      height: 80px;
+      position: relative;S
+      text-align: center;
+      transform: rotate(20deg);
+      background: linear-gradient(to bottom, #EB6B60 0%, #F78F9A 100%);
+    }
+
+
+#flower {
+    background: linear-gradient(to bottom, #EB6B60 0%, #F78F9A 100%);
+      position: absolute;
+      top: 30px;
+      left: 315px;
+      height: 80px;
+      width: 80px;
+    transform: rotate(155deg);
+
+    }
+  

@@ -1,0 +1,220 @@
+ body {
+     background-color: ghostwhite;
+     display: flex;
+     height: 100vh;
+     width: 100vw;
+     justify-content: center;
+     align-content: center;
+ }
+
+ p {
+     color: deepskyblue;
+     font-size: 80px;
+     font-family: 'Modak', cursive;
+     text-align: center;
+     padding: 0;
+     margin: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50%);
+     display: flex;
+         bottom: 70px
+
+ }
+
+ h2 {
+     color: deepskyblue;
+     font-size: 80px;
+     font-family: 'Modak', cursive;
+     right: 70px;
+     bottom: 0;
+     padding: 0;
+     margin: 0;
+     position: absolute;
+     display: flex;
+         bottom: 70px
+ }
+
+
+h3 {
+   color: deepskyblue;
+     font-size: 80px;
+        font-family: 'Modak', cursive;
+     left: 70px;
+     bottom: 0;
+     padding: 0;
+     margin: 0;
+     position: absolute;
+     display: flex;
+        bottom: 70px;
+ }
+
+ .circleone {
+     height: 90px;
+     width: 90px;
+     background-color: #C9E0FF;
+     border-radius: 50%;
+     transform: translateY(200);
+     position: absolute;
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-duration: 30s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+ }
+
+ .circletwo {
+     height: 100px;
+     width: 100px;
+     background-color: #C9E0FF;
+     border-radius: 50%;
+     transform: translateY(200);
+     position: absolute;
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-duration: 10s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+     left: 40px;
+ }
+
+ .circlethree {
+     height: 60px;
+     width: 60px;
+     background-color: #C9E0FF;
+     border-radius: 50%;
+     transform: translateY(200);
+     position: absolute;
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-duration: 7s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+     right: 1000px;
+ }
+
+ .circlefour {
+     height: 100px;
+     width: 100px;
+     background-color: #C9E0FF;
+     border-radius: 50%;
+     transform: translateY(200);
+     position: absolute;
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-duration: 20s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+     left: 100px;
+ }
+
+
+ .circlefive {
+     height: 50px;
+     width: 50px;
+     background-color: #C9E0FF;
+     border-radius: 50%;
+     transform: translateY(200);
+     position: absolute;
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-duration: 10s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+     right: 100px;
+ }
+
+
+ .circlesix {
+     height: 120px;
+     width: 120px;
+     background-color: #C9E0FF;
+     border-radius: 50%;
+     transform: translateY(200);
+     position: absolute;
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-duration: 8s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+     left: 500px;
+ }
+
+ .circleseven {
+     height: 120px;
+     width: 120px;
+     background-color: #C9E0FF;
+     border-radius: 50%;
+     transform: translateY(200);
+     position: absolute;
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-duration: 18s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+     left: 550px;
+ }
+
+ .circleeight {
+     height: 60px;
+     width: 60px;
+     background-color: #C9E0FF;
+     border-radius: 50%;
+     transform: translateY(200);
+     position: absolute;
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-duration: 11s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+     left: 1200px;
+ }
+
+ .circlenine {
+     height: 60px;
+     width: 60px;
+     background-color: #C9E0FF;
+     border-radius: 50%;
+     transform: translateY(200);
+     position: absolute;
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-duration: 17s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+     left: 1400px;
+ }
+
+ .circleten {
+     height: 150px;
+     width: 150px;
+     background-color: #C9E0FF;
+     border-radius: 50%;
+     transform: translateY(200);
+     position: absolute;
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-duration: 10s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+     right: 140px;
+ }
+
+ #move {
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-duration: 20s;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in-out;
+ }
+
+ @keyframes move {
+     0% {
+         transform: translateY(0vw);
+     }
+
+     100% {
+         transform: translateY(65vw);
+     }
+ }

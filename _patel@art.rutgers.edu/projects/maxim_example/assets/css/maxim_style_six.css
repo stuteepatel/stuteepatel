@@ -1,0 +1,64 @@
+div {
+    font-size: 80px;
+    font-family: 'Francois One';
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #FFD95A;
+}
+
+body{
+    background:#FFF3C7;
+}
+
+
+h2 {
+color: #FFD95A;
+    font-size: 80px;
+   font-family: 'Francois One';
+    right: 70px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    bottom: 70px;
+}
+
+h3 {
+   color: #FFD95A;
+    font-size: 80px;
+  font-family: 'Francois One';
+    left: 70px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    bottom: 70px;
+}
+
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom {
+  transform: scale(60);
+    transition-duration: 8s;
+     animation-timing-function: ease-in-out;
+    font-style: italic;
+    color: #CCAD47;
+    animation-direction: alternate-reverse;
+      animation-iteration-count: infinite;
+
+}
+

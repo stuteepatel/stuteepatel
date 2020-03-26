@@ -1,0 +1,93 @@
+/*RESETS*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/*The code above resets box-sizing & margins and padding on all elements*/
+
+
+/*YOUR CSS CODE GOES BELOW*/
+
+body {
+    background-color: #CCBAB8;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 90px;
+    color: #803332;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    position: fixed;
+}
+
+p:hover{
+    color: #FF7FAF;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex-wrap: wrap;
+  padding: 0 4px;
+
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+    margin-left: 27px;
+}
+
+
+
+ div {
+
+  animation-name: spin;
+  animation-duration: 40000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+

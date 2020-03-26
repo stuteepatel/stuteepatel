@@ -1,0 +1,65 @@
+     p {
+         font-size: 80px;
+         font-family: 'Playfair Display', serif;
+         text-align: center;
+         padding: 0;
+         margin: 0;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translateX(-50%) translateY(-50%);
+         border: 2px;
+         border-style:ridge;
+         border-color:#630805;
+     }
+
+     body {
+         display: flex;
+         align-content: center;
+         justify-content: center;
+         background:#FDE5E4;
+     }
+
+     span {
+         color: #B00600;
+     }
+
+
+h2 {
+    color: #B00600;
+    font-size: 80px;
+   font-family: 'Playfair Display', serif;
+    right: 70px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    bottom: 70px;
+ 
+    
+}
+
+h3 {
+    color: #B00600;
+    font-size: 80px;
+   font-family: 'Playfair Display', serif;
+    left: 70px;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    bottom: 70px;
+}
+
+
+.op-change {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.op-change:hover {
+    opacity: 1;
+}
+
