@@ -28,9 +28,9 @@ a {
     color: black;
     list-style-type: none;
     position: relative;
-    display: inline-block;
+    display: in-line block;
     text-decoration: none;
-
+    letter-spacing: 2px;
 }
 
 #flexwrapper {
@@ -38,14 +38,14 @@ a {
     margin-left: 782px;
     flex-direction: column;
     justify-content: center;
-  
+
 }
 
 .pink {
     width: 700px;
     text-align: left;
     font-family: 'Arsenal';
-     text-transform: none;
+    text-transform: none;
     font-size: 50px;
     color: black;
     list-style-type: none;
@@ -54,7 +54,7 @@ a {
     animation-duration: 5s;
     animation-direction: normal;
     animation-timing-function: ease-in-out;
-    
+
 }
 
 
@@ -88,22 +88,22 @@ h1 {
     text-align: left;
     justify-content: left;
     align-items: left;
-/*    margin-left: 182px;*/
-margin-top: 166px;
+    /*    margin-left: 182px;*/
+    margin-top: 166px;
 
 }
 
 h2 {
-/*    margin-left: 182px;*/
+    /*    margin-left: 182px;*/
     text-align: left;
     justify-content: left;
     align-items: center;
-    color:white;
-     font-size: 50px;
-     font-family: 'Montserrat';
+    color: white;
+    font-size: 50px;
+    font-family: 'Arsenal';
     margin-top: 40px;
     width: 700px;
-  
+
 }
 
 
@@ -175,7 +175,7 @@ c {
 
 .holder {
 
-/*    display: inline-block;*/
+    /*    display: inline-block;*/
     margin-left: 700px;
     margin-top: 186px;
     margin-top: 40px;
@@ -205,7 +205,7 @@ c {
 
     top: 0;
     bottom: 0;
-/*    right: 400;*/
+    /*    right: 400;*/
 
     width: 100%;
     height: auto;
@@ -221,7 +221,7 @@ c {
 .text {
     color: white;
     font-size: 20px;
-    font-family: 'Montserrat';
+    font-family: 'Arsenal';
     position: relative;
     top: 50%;
     left: 50%;
