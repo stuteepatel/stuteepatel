@@ -6,7 +6,7 @@ html {
 body {
     height: 100%;
     display: flex;
-    background-color: black;
+    background-color: whitesmoke;
 
 }
 
@@ -22,7 +22,7 @@ div {
 }
 
 a {
-    font-family: 'Montserrat';
+    font-family: 'Arsenal';
     text-transform: uppercase;
     font-size: 60px;
     color: black;
@@ -44,10 +44,10 @@ a {
 .pink {
     width: 700px;
     text-align: left;
-    font-family: 'Montserrat';
+    font-family: 'Arsenal';
      text-transform: none;
     font-size: 50px;
-    color: #783D47;
+    color: black;
     list-style-type: none;
     text-decoration: none;
     animation-name: appear;
@@ -79,7 +79,7 @@ li {
 
 
 h1 {
-    font-family: 'Montserrat';
+    font-family: 'Arsenal';
     text-transform: uppercase;
     font-size: 80px;
     color: #783D47;
@@ -110,7 +110,7 @@ h2 {
 
 .logo {
     z-index: 100000;
-    font-family: 'Montserrat';
+    font-family: 'Arsenal';
     text-transform: uppercase;
     font-size: 60px;
     color: white;
