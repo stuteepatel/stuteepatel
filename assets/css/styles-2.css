@@ -1,0 +1,266 @@
+html {
+    height: 100%
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin-top: 240px;
+    margin-left: 90px;
+}
+
+body {
+    height: 100%;
+    font-family: 'Arsenal';
+    /*            display: flex;*/
+    background-color: whitesmoke;
+}
+
+nav {
+    background: #F69E92;
+    line-height: 80px;
+    width: 100%
+}
+
+label.logo {
+    color: #783D47;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 30px;
+    font-weight: bold;
+    font-family: 'Arsenal';
+    text-transform: uppercase;
+}
+
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    color: #783D47;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: floralwhite;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: aqua;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+}
+
+/*
+        section{
+            background: url
+            background-size: cover;
+            height: cals (100vh -80p)
+        }
+*/
+
+.logo img {
+    width: 30px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+
+.banner {
+    width: 80%;
+    height: 70%;
+    top: 40px;
+    left: 15%;
+    font-family: 'Arsenal';
+    position: absolute;
+    color: #783D47
+}
+
+.app-text {
+    /*            width: 50%;*/
+    float: left;
+}
+
+app-text h1 {
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+
+
+div {
+    flex-direction: column;
+    display: flex;
+    margin-top: 40px;
+    /*            justify-content: center;*/
+    /*            text-align: center;*/
+    /*            align-items: center;*/
+
+
+}
+
+a {
+    font-family: 'Arsenal';
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    list-style-type: none;
+    position: relative;
+    display: in-line block;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    font-size: 85px;
+    color: #F69E92;
+    list-style-type: none;
+    position: relative;
+}
+
+
+indent.h2 {
+    font-family: 'Arsenal';
+    color: #783D47;
+    text-transform: uppercase;
+    margin-left: 50%;
+
+
+}
+
+
+h3 {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    font-size: 160px;
+    color: #783D47;
+    list-style-type: none;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    text-decoration: none;
+    height: 0px;
+    position: sticky;
+    top: 15px;
+    display: inline;
+
+}
+
+.animated {
+    animation: fadeAndScale .3s ease-in;
+    transform-origin: center bottom;
+}
+
+@keyframes fadeAndScale {
+    from {
+        opacity: 0;
+        transform: scale3d(.75, .75, 1);
+
+    }
+
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+
+.animatedagain {
+    animation: moveAndScale .3s ease-in;
+    transform-origin: center bottom;
+}
+
+@keyframes moveAndScale {
+    from {
+        opacity: 0;
+        transform: scale3d(1, 1, 1);
+
+    }
+
+    to {
+        opacity: 1;
+        transform: scale3d(.3, .3, 1);
+    }
+}

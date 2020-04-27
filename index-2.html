@@ -8,236 +8,14 @@
     <title>Stutee's Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles-2.css">
+
     <link href="https://fonts.googleapis.com/css?family=Arsenal&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 
-    <style>
-        html {
-            height: 100%
-        }
 
-
-
-        * {
-            padding: 0;
-            margin: 0;
-            list-style-type: none;
-            box-sizing: border-box;
-        }
-
-
-
-        body {
-            height: 100%;
-            font-family: 'Arsenal';
-            /*            display: flex;*/
-            background-color: whitesmoke;
-        }
-
-        nav {
-            background: #F69E92;
-            line-height: 80px;
-            width: 100%
-        }
-
-        label.logo {
-            color: #783D47;
-            font-size: 35px;
-            line-height: 80px;
-            padding: 0 100px;
-            font-weight: bold;
-            font-family: 'Arsenal';
-            text-transform: uppercase;
-        }
-
-
-        nav ul {
-            float: right;
-            margin-right: 20px;
-        }
-
-        nav ul li {
-            display: inline-block;
-            line-height: 80px;
-            margin: 0 5px;
-        }
-
-
-        nav ul li a {
-            color: black;
-            font-size: 17px;
-            padding: 7px 13px;
-            border-radius: 3px;
-            text-transform: uppercase;
-        }
-
-        a.active,
-        a:hover {
-            color: #BFA4AD;
-        }
-
-        .checkbtn {
-            font-size: 30px;
-            color: floralwhite;
-            float: right;
-            line-height: 80px;
-            margin-right: 40px;
-            cursor: pointer;
-            display: none;
-        }
-
-        #check {
-            display: none;
-        }
-
-        @media (max-width: 952px) {
-            label.logo {
-                font-size: 30px;
-                padding-left: 50px;
-            }
-
-            nav ul li a {
-                font-size: 16px;
-            }
-        }
-
-        @media (max-width: 858px) {
-            .checkbtn {
-                display: block;
-            }
-
-            ul {
-                position: fixed;
-                width: 100%;
-                height: 100vh;
-                background: #2c3e50;
-                top: 80px;
-                left: -100%;
-                text-align: center;
-                transition: all .5s;
-            }
-
-
-            nav ul li {
-                display: block;
-                margin: 50px 0;
-                line-height: 30px;
-            }
-
-            nav ul li a {
-                font-size: 20px;
-            }
-
-            a:hover,
-            a.active {
-                background: none;
-                color: aqua;
-            }
-
-            #check:checked~ul {
-                left: 0;
-            }
-
-        }
-        
-/*
-        section{
-            background: url
-            background-size: cover;
-            height: cals (100vh -80p)
-        }
-*/
-
-
-        div {
-            flex-direction: column;
-            display: flex;
-            margin-top: 30px;
-            /*            justify-content: center;*/
-            /*            text-align: center;*/
-            /*            align-items: center;*/
-
-
-        }
-
-        a {
-            font-family: 'Arsenal';
-            text-transform: uppercase;
-            font-size: 20px;
-            color: black;
-            list-style-type: none;
-            position: relative;
-            display: in-line block;
-            text-decoration: none;
-            letter-spacing: 2px;
-        }
-
-        h1 {
-            font-family: 'Arsenal';
-            text-transform: uppercase;
-            font-size: 20px;
-            color: black;
-            list-style-type: none;
-            position: relative;
-        }
-
-
-        h3 {
-            font-family: 'Arsenal';
-            text-transform: uppercase;
-            font-size: 60px;
-            color: #783D47;
-            list-style-type: none;
-            text-align: left;
-            align-items: left;
-            justify-content: left;
-            margin-left: 30px;
-            margin-top: 15px;
-            text-decoration: none;
-            height: 0px;
-            position: sticky;
-            top: 15px;
-
-        }
-
-        .animated {
-            animation: fadeAndScale .3s ease-in;
-            transform-origin: center bottom;
-        }
-
-        @keyframes fadeAndScale {
-            from {
-                opacity: 0;
-                transform: scale3d(.75, .75, 1);
-
-            }
-
-            to {
-                opacity: 1;
-                transform: scale3d(1, 1, 1);
-            }
-        }
-
-
-        .animatedagain {
-            animation: moveAndScale .3s ease-in;
-            transform-origin: center bottom;
-        }
-
-        @keyframes moveAndScale {
-            from {
-                opacity: 0;
-                transform: scale3d(1, 1, 1);
-
-            }
-
-            to {
-                opacity: 1;
-                transform: scale3d(.3, .3, 1);
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -246,15 +24,37 @@
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
-        <label class="logo">Stutee Patel</label>
+        <label class="logo"> </label>
         <ul>
             <li><a class="active" href="currentprojects.html">Current Projects </a></li>
             <li><a href="pastprojects.html">Past Projects</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
-<section>
-    
+
+    <div>
+
+        <div class="banner">
+            <div class="app-text">
+                <h1> Stutee Patel <br> New Jersey Based <br> Graphic Designer</h1>
+                <h2 class="indent"> something about my art i guess</h2>
+            </div>
+        </div>
+    </div>
+
+    <img src="assets/imgs/MEee.JPG" alt="Me" height="700" width="500">
+
+    <svg width=100% height="180">
+        <rect x="0" y="25" width=100% height="1" style="fill:#F69E92;;opacity:70%" />
+    </svg>
+
+
+    <svg height="210" width="500">
+        <line x1="0" y1="0" x2="200" y2="200" style="stroke:#F69E92;stroke-width:2" />
+    </svg>
+
+    <section>
+
     </section>
 
 
