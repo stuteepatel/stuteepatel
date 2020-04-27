@@ -13,7 +13,7 @@ html {
 
 img {
     display: block;
-    margin-top: 240px;
+    margin-top: 244px;
     margin-left: 90px;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 nav {
-    background: #F69E92;
+    background: whitesmoke;
     line-height: 80px;
     width: 100%
 }
@@ -68,7 +68,7 @@ a:hover {
 
 .checkbtn {
     font-size: 30px;
-    color: floralwhite;
+    color: whitesmoke;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -198,26 +198,26 @@ h1 {
     color: #F69E92;
     list-style-type: none;
     position: relative;
+    margin-bottom: -16px;
 }
 
 
-indent.h2 {
-    font-family: 'Arsenal';
-    color: #783D47;
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+    color: black;
     text-transform: uppercase;
-    margin-left: 50%;
-
-
+    font-size: 85px;
 }
 
 
 h3 {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Arsenal';
     text-transform: uppercase;
-    font-size: 160px;
+    font-size: 20px;
     color: #783D47;
+    letter-spacing: 2px;
     list-style-type: none;
-    text-align: left;
+    text-align: right;
     align-items: left;
     justify-content: left;
     text-decoration: none;
@@ -227,6 +227,33 @@ h3 {
     display: inline;
 
 }
+
+
+/*animating line*/
+.line {
+    position: relative;
+    color: black;
+}
+
+.line::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    bottom: -3px;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+}
+
+.line:hover:before{
+    visibility: visible;
+    transform: scaleX(1);
+}
+/*animating line*/
+
 
 .animated {
     animation: fadeAndScale .3s ease-in;
