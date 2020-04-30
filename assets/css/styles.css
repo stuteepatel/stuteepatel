@@ -60,7 +60,7 @@ a {
 
 
 a:hover {
-    color: #BFA4AD;
+    color: #783D47;
 }
 
 ul {
@@ -79,10 +79,10 @@ li {
 
 
 h1 {
-    font-family: 'Arsenal';
+    font-family: 'Archivo Black', sans-serif;
     text-transform: uppercase;
     font-size: 80px;
-    color: #783D47;
+    color: #F69E92;
     list-style-type: none;
     position: relative;
     text-align: left;
@@ -98,7 +98,7 @@ h2 {
     text-align: left;
     justify-content: left;
     align-items: center;
-    color: white;
+    color: black;
     font-size: 50px;
     font-family: 'Arsenal';
     margin-top: 40px;
@@ -110,11 +110,11 @@ h2 {
 
 .logo {
     z-index: 100000;
-    font-family: 'Arsenal';
+    font-family: 'Archivo Black', sans-serif;
     text-transform: uppercase;
     font-size: 60px;
-    color: white;
-    margin-left: 30px;
+    color: whitesmoke;
+    margin-left: 10px;
     margin-top: 15px;
     width: 600px;
     text-decoration: none;
@@ -124,10 +124,10 @@ h2 {
 }
 
 .container {
-    height: 2600px;
+    height: 1860px;
     width: 530px;
     text-align: center;
-    background: #783D47;
+    background: #F69E92;
     animation-name: move;
     animation-duration: 2.5s;
     animation-direction: reverse;
