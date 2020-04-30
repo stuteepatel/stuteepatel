@@ -36,6 +36,7 @@ a {
 #flexwrapper {
     display: flex;
     margin-left: 782px;
+    margin-top: 180px;
     flex-direction: column;
     justify-content: center;
 
