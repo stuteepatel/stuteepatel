@@ -13,7 +13,7 @@ html {
 
 img {
     display: block;
-    margin-top: 244px;
+    margin-top: 220px;
     margin-left: 90px;
 }
 
@@ -163,7 +163,7 @@ app-text h1 {
     font-size: 43px;
     width: 640px;
     position: relative;
-    margin-left: 40px;
+    margin-left: 38px;
 }
 
 
@@ -217,29 +217,31 @@ h3 {
     /*    color: #783D47;*/
     color: black;
     letter-spacing: 2px;
+    /*
     text-align: right;
     align-items: right;
-    justify-content: left;
-    height: 0px;
+    /*    justify-content: left;*/
+    /*    height: 0px;*/
     /*    position: sticky;*/
-    display: inline;
+    display: block;
+    margin-left: 50%;
 }
 
 
 /*animating line*/
 
 
-.line {
+.pop {
     position: relative;
     color: black;
-    height: 2px;
+    height: 3px;
     width: 100%;
     background-color: black;
     margin-top: 20px;
 
 }
 
-.line::before {
+.pop::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -248,16 +250,38 @@ h3 {
     left: 0;
     background-color: black;
     visibility: hidden;
-    transform: scaleX(0);
-    transition: all .3s ease-in-out;
-    visibility: visible;
+    transition: all .3s ease-in;
     transform: scaleX(0);
 }
 
-.line:hover:before {
+.pop:hover:before {
     visibility: visible;
     transform: scaleX(1);
 }
+
+
+
+/*
+.zoom {
+  padding: 50px;
+  transition: transform .2s;  Animation 
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom {
+  transform: scale(60);
+    transition-duration: 8s;
+     animation-timing-function: ease-in-out;
+    font-style: italic;
+    color: #CCAD47;
+    animation-direction: alternate-reverse;
+      animation-iteration-count: infinite;
+
+}
+*/
+
 
 /*animating line*/
 
