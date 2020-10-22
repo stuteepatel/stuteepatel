@@ -1,0 +1,103 @@
+html {
+    height: 100%
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    /*    100% of the viewport height*/
+    padding: 10px;
+    background-image: url(assets/imgs/airplane.jpg);
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 8px;
+    background-color: #BF4D34;
+    border-radius: 30px;
+    padding: 10px 120px 5px 120px;
+    margin: 5px 0px 25px 0px;
+    line-height: 2;
+
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #BF4D34;
+    font-size: 80px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+    color: #BF4D34;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    border: 5px dotted white;
+    margin:  30px 390px 50px 390px;
+}
+
+p:hover {
+  background-color:#F2CD5C;
+}
+
+
+cursor: pointer;
+
+
+.pink {
+/*
+    width: 700px;
+    text-align: left;
+    font-family: 'Arsenal';
+    text-transform: none;
+    font-size: 50px;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+*/
+    animation-name: appear;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+
+}
+
+animation-name:;
+animation-name:;
+animation-name:;
+animation:;
+animation-duration:;
+animation-iteration-count:;
+
+
+
+a {
+    font-family: 'Bebas Neue', cursive;
+    color: #BF4D34;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+a:hover {
+    background: white;
+    color: #BF4D34;
+}
+
+a:visited {
+  color: #BF4D34;
+}
+
+a:active {
+  color: white;
