@@ -15,6 +15,7 @@ img {
     display: block;
     margin-top: 130px;
     margin-left: 90px;
+
 }
 
 body {
@@ -240,17 +241,21 @@ h3 {
     height: 10px;
     position: absolute;
     display: block;
-    /*
-    margin-right: 38px;
-    margin-top: 200px;
-*/
 }
 
+.lineani {
+    height: 2px;
+    width: 360px;
+    background-color: black;
+}
 
-/*animating line
+.square {
+    height: 1000px;
+    max-width: inherit;
+    background-color: #F69E92;
+}
 
-
-.pop {
+animating line .pop {
     position: relative;
     color: black;
     height: 3px;
@@ -280,29 +285,27 @@ h3 {
 
 
 
-/*
 .zoom {
-  padding: 50px;
-  transition: transform .2s;  Animation 
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
+    padding: 50px;
+    transition: transform .2s;
+    Animation width: 200px;
+    height: 200px;
+    margin: 0 auto;
 }
 
 .zoom {
-  transform: scale(60);
+    transform: scale(2);
     transition-duration: 8s;
-     animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
     font-style: italic;
     color: #CCAD47;
     animation-direction: alternate-reverse;
-      animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 
 }
-*/
 
 
-/*animating line*/
+/*animating line
 
 
 .animated {
