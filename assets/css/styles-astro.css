@@ -14,14 +14,55 @@ html {
 body {
     margin: 0;
     padding: 0;
-    height: 3000px;
     display: flex;
+    height: 3000px;
     min-height: 100vh;
-    /* Used to enable scrolling */
     background: linear-gradient(180deg, #252526 0%, #404040 51%, #2B2B40 85%);
+  
 }
 
+ul {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 0;
+    display: flex;
+}
 
+ul li {
+    position: relative;
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background: #777;
+    margin: 0 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+ul li:hover {
+    background: #b56728;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #b56728;
+}
+
+ul li .contnet {
+    position: absolute;
+    bottom: 0;
+    width: 120px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;        
+}
+
+ul li:hover .content{
+    visibility: visible;
+    opacity: 1;
+}
 
 h1 {
     color: #A69D8D;
@@ -57,7 +98,6 @@ span.period {
     color: #b56728;
 }
 
-
 .container {
     display: flex;
     justify-content: space-between;
@@ -71,54 +111,69 @@ span.period {
     border-radius: 50%;
     display: flex;
     margin-left: 14px;
+    transition: all .2s ease-in-out;
 }
+
+
+
+
+
+
+
+
 
 span.dot:hover {
     background-color: #b56728;
+    transform: scale(1.5);
 }
 
 span.filledin:hover {
     background-color: #b56728;
+    transition: all .2s ease-in-out;
 }
 
 span.filledin2:hover {
     background-color: #b56728;
+    transition: all .2s ease-in-out;
+}
+
+span.filledin3:hover {
+    background-color: #b56728;
+    transition: all .2s ease-in-out;
 }
 
 span.halfcircle:hover {
-    background-color: #b56728;
-    border: none;
+    /*    background-color: #b56728;*/
+    border: 6px dotted #b56728;
+    transition: all .2s ease-in-out;
 }
 
 span.halfcircle2:hover {
-    background-color: #b56728;
-        border: none;
-    
+    border: 6px dotted #b56728;
+    transition: all .2s ease-in-out;
+
 }
 
-span.planet2:hover {
-    background-color: #b56728;
-           border: none;
-}
-
-span.planet2:hover {
-    background-color: #b56728;
-           border: none;
+span.halfcircle3:hover {
+    /*    background-color: #b56728;*/
+    border: 6px dotted #b56728;
+    transition: all .2s ease-in-out;
 }
 
 span.planet:hover {
-    background-color: #b56728;
-           border: none;
+    border: 8px solid #b56728;
+    transition: all .2s ease-in-out;
 }
 
 span.planet2:hover {
-    background-color: #b56728;
-           border: none;
+    border: 3px solid #b56728;
+    transition: all .2s ease-in-out;
 }
 
 span.planetsmall:hover {
     background-color: #b56728;
-           border: none;
+    border: none;
+    transition: all .2s ease-in-out;
 }
 
 
@@ -143,8 +198,23 @@ span.planetsmall:hover {
     border-radius: 50%;
     border: 6px dotted #A69D8D;
     transform: rotate(45deg);
-    margin-right: -690px;
-    margin-top: 1290px;
+    margin-left: -190px;
+    margin-top: 1790px;
+    animation: rotation 25s infinite linear;
+}
+
+.halfcircle3 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px dotted #A69D8D;
+    transform: rotate(45deg);
+    /*
+    transform: translateX(190px);
+    transform: translateY(660px);
+*/
+    margin-left: -900px;
+    margin-top: 1190px;
     animation: rotation 25s infinite linear;
 }
 
@@ -176,6 +246,15 @@ span.planetsmall:hover {
     margin-left: -500px;
 }
 
+.planet3 {
+    height: 370px;
+    width: 370px;
+    border-radius: 50%;
+    border: 8px solid #A69D8D;
+    margin-top: 1840px;
+    margin-left: -830px;
+}
+
 .filledin {
     height: 200px;
     width: 200px;
@@ -190,9 +269,18 @@ span.planetsmall:hover {
     width: 150px;
     border-radius: 50%;
     background-color: #A69D8D;
-    margin-top: 1940px;
+    margin-top: 40px;
+}
+
+.filledin3 {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    background-color: #A69D8D;
+    margin-top: 640px;
     margin-right: -100px;
 }
+
 
 
 .circleone {
