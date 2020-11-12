@@ -103,10 +103,53 @@ p {
 
 }
 
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 4px;
+box-sizing: border-box;
+
+/*transition: 0.3s;*/
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/*
+    bottom: 0;
+    padding: 10px;
+    opacity: 0;
+        top: -300px;
+    bottom: -300px;
+*/
+   
+
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+  
+}
+
+
 span.period {
     color: #b56728;
 }
 
+/*
 .dot {
     height: 10px;
     width: 10px;
@@ -116,75 +159,75 @@ span.period {
     margin-left: 14px;
     transition: all .2s ease-in-out;
 }
+*/
 
 span.dot:hover {
     background-color: #b56728;
     transform: scale(1.5);
 }
 
-span.filledin:hover {
+.filledin:hover {
     background-color: #b56728;
     transition: all .3s ease-in-out;
 }
 
-span.filledin2:hover {
+.filledin2:hover {
     background-color: #b56728;
     transition: all .3s ease-in-out;
 }
 
-span.filledin3:hover {
+.filledin3:hover {
     background-color: #b56728;
     transition: all .3s ease-in-out;
 }
 
-span.filledin4:hover {
+.filledin4:hover {
     background-color: #b56728;
     transition: all .3s ease-in-out;
 }
-span.filledin5:hover {
+.filledin5:hover {
     background-color: #b56728;
     transition: all .3s ease-in-out;
 }
-span.filledin6:hover {
+.filledin6:hover {
     background-color: #b56728;
     transition: all .3s ease-in-out;
 }
 
-span.halfcircle:hover {
+.halfcircle:hover {
     /*    background-color: #b56728;*/
     border: 6px dotted #b56728;
     transition: all .3s ease-in-out;
 }
 
-span.halfcircle2:hover {
+.halfcircle2:hover {
     border: 6px dotted #b56728;
     transition: all .3s ease-in-out;
 
 }
 
-span.halfcircle3:hover {
+.halfcircle3:hover {
     /*    background-color: #b56728;*/
     border: 6px dotted #b56728;
     transition: all .3s ease-in-out;
 }
-
-span.planet:hover {
+.planet:hover {
     border: 8px solid #b56728;
     transition: all .3s ease-in-out;
 }
 
-span.planet2:hover {
+.planet2:hover {
     border: 3px solid #b56728;
     transition: all .3s ease-in-out;
 }
 
-span.planetsmall:hover {
+.planetsmall:hover {
     background-color: #b56728;
     border: none;
     transition: all .2s ease-in-out;
 }
 
-span.planet3:hover {
+.planet3:hover {
     border: 8px solid #b56728;
     transition: all .3s ease-in-out;
 }
