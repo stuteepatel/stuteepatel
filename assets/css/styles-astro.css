@@ -18,12 +18,12 @@ body {
     height: 3000px;
     min-height: 100vh;
     background: linear-gradient(180deg, #252526 0%, #404040 51%, #2B2B40 85%);
-  
+
 }
 
 ul {
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 5px;
     padding: 0;
     display: flex;
 }
@@ -31,10 +31,10 @@ ul {
 ul li {
     position: relative;
     list-style: none;
-    width: 10px;
-    height: 10px;
+    width: 18px;
+    height: 18px;
     background: #777;
-    margin: 0 20px;
+    margin: 0 10px;
     border-radius: 50%;
     transition: 0.5s;
     cursor: pointer;
@@ -43,35 +43,36 @@ ul li {
 ul li:hover {
     background: #b56728;
     box-shadow: 0 0 0 4px #333,
-                0 0 0 6px #b56728;
+        0 0 0 6px #b56728;
 }
 
-ul li .contnet {
+ul li .content {
     position: absolute;
     bottom: 0;
-    width: 120px;
+    width: 200px;
     background: #fff;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
     border-radius: 4px;
     visibility: hidden;
     opacity: 0;
-    transition: 0.5s;        
+    transition: 0.3s;
+    /*    top: -300px;*/
+    bottom: -300px;
+    z-index: 1;
 }
 
-ul li:hover .content{
+ul li:hover .content {
     visibility: visible;
     opacity: 1;
 }
 
 h1 {
-    color: #A69D8D;
+    color: #2B2B40;
     font-size: 13px;
-    /*    text-transform: uppercase;*/
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 10px;
     font-weight: 100;
 }
 
@@ -84,7 +85,6 @@ h2 {
     margin-top: 20px;
     font-weight: 400px;
     position: fixed;
-    z-index: -1;
     margin-left: 20px;
     bottom: 0px;
 
@@ -94,14 +94,17 @@ h2 {
 */
 }
 
-span.period {
-    color: #b56728;
+p {
+    color: #A69D8D;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
+span.period {
+    color: #b56728;
 }
 
 .dot {
@@ -114,14 +117,6 @@ span.period {
     transition: all .2s ease-in-out;
 }
 
-
-
-
-
-
-
-
-
 span.dot:hover {
     background-color: #b56728;
     transform: scale(1.5);
@@ -129,51 +124,69 @@ span.dot:hover {
 
 span.filledin:hover {
     background-color: #b56728;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 span.filledin2:hover {
     background-color: #b56728;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 span.filledin3:hover {
     background-color: #b56728;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+span.filledin4:hover {
+    background-color: #b56728;
+    transition: all .3s ease-in-out;
+}
+span.filledin5:hover {
+    background-color: #b56728;
+    transition: all .3s ease-in-out;
+}
+span.filledin6:hover {
+    background-color: #b56728;
+    transition: all .3s ease-in-out;
 }
 
 span.halfcircle:hover {
     /*    background-color: #b56728;*/
     border: 6px dotted #b56728;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 span.halfcircle2:hover {
     border: 6px dotted #b56728;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 
 }
 
 span.halfcircle3:hover {
     /*    background-color: #b56728;*/
     border: 6px dotted #b56728;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 span.planet:hover {
     border: 8px solid #b56728;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 span.planet2:hover {
     border: 3px solid #b56728;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 span.planetsmall:hover {
     background-color: #b56728;
     border: none;
     transition: all .2s ease-in-out;
+}
+
+span.planet3:hover {
+    border: 8px solid #b56728;
+    transition: all .3s ease-in-out;
 }
 
 
@@ -193,13 +206,15 @@ span.planetsmall:hover {
 }
 
 .halfcircle2 {
-    height: 750px;
-    width: 750px;
+    height: 950px;
+    width: 950px;
     border-radius: 50%;
     border: 6px dotted #A69D8D;
     transform: rotate(45deg);
-    margin-left: -190px;
+/*    margin-left: -60px;*/
     margin-top: 1790px;
+    transform: translate(500px);
+z-index: 1;
     animation: rotation 25s infinite linear;
 }
 
@@ -213,7 +228,7 @@ span.planetsmall:hover {
     transform: translateX(190px);
     transform: translateY(660px);
 */
-    margin-left: -900px;
+    margin-left: -1300px;
     margin-top: 1190px;
     animation: rotation 25s infinite linear;
 }
@@ -235,6 +250,7 @@ span.planetsmall:hover {
     border: 8px solid #A69D8D;
     margin-top: 140px;
     margin-left: 30px;
+
 }
 
 .planet2 {
@@ -244,6 +260,8 @@ span.planetsmall:hover {
     border: 3px solid #A69D8D;
     margin-top: 1330px;
     margin-left: -500px;
+    z-index: 1;
+
 }
 
 .planet3 {
@@ -251,8 +269,20 @@ span.planetsmall:hover {
     width: 370px;
     border-radius: 50%;
     border: 8px solid #A69D8D;
-    margin-top: 1840px;
+    margin-top: 2040px;
     margin-left: -830px;
+    z-index: 1;
+}
+
+.planet4 {
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    border: 6px solid #A69D8D;
+    margin-top: 2030px;
+/*    margin-left: -500px;*/
+        transform: translate(500px);
+
 }
 
 .filledin {
@@ -262,6 +292,8 @@ span.planetsmall:hover {
     background-color: #A69D8D;
     margin-top: 940px;
     margin-right: 160px;
+    z-index: 1;
+
 }
 
 .filledin2 {
@@ -270,6 +302,8 @@ span.planetsmall:hover {
     border-radius: 50%;
     background-color: #A69D8D;
     margin-top: 40px;
+    margin-left: -120px;
+
 }
 
 .filledin3 {
@@ -277,12 +311,38 @@ span.planetsmall:hover {
     width: 450px;
     border-radius: 50%;
     background-color: #A69D8D;
-    margin-top: 640px;
+    margin-top: 700px;
     margin-right: -100px;
+
 }
 
 
+.filledin4 {
+    height: 460px;
+    width: 460px;
+    border-radius: 50%;
+    background-color: #A69D8D;
+    margin-top: 1680px;
+    margin-left: -750px;
+}
+.filledin5 {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    background-color: #A69D8D;
+    margin-top: 1490px;
+transform: translate(780px);
 
+}
+.filledin6 {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #A69D8D;
+    margin-top: 2490px;
+
+transform: translate(210px);
+}
 .circleone {
     height: 20px;
     width: 20px;
