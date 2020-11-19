@@ -22,7 +22,7 @@ body {
 
 ul {
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: 10px;
     padding: 0;
     display: flex;
 }
@@ -74,7 +74,8 @@ ul li .content {
     opacity: 0;
     transition: 0.3s;
     /*    top: -300px;*/
-    bottom: -300px;
+    bottom: -340px;
+    left: 20px;
     z-index: 1;
 }
 
@@ -110,20 +111,15 @@ h2 {
 */
 }
 
-h3{
+h4{
     color: #A69D8D;
-/*
-    margin: 0;
-    padding: 0;
-*/
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
     text-align: center;
     font-weight: 100;
     position: relative;
-    top: 50%;
-    bottom: 50%;
+justify-content: center;-
     opacity: 0;
 }
     
@@ -226,6 +222,18 @@ span.dot:hover {
     transition: all .3s ease-in-out;
 }
 
+.filledin2 {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: #A69D8D;
+    margin-top: 40px;
+    margin-right: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .filledin3:hover {
     background-color: #b56728;
     transition: all .3s ease-in-out;
@@ -285,8 +293,8 @@ span.dot:hover {
 .planet3:hover {
     border: 8px solid #b56728;
     transition: all .3s ease-in-out;
-    background-color: #b56728;
-    opacity: 90%;
+/*    background-color: #b56728;*/
+    opacity: 85%;
 }
 
 .container:hover .planet3 {
@@ -298,10 +306,9 @@ span.dot:hover {
     width: 900px;
     border-radius: 50%;
     border: 6px dotted #A69D8D;
-    /*
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform: rotate(45deg);
     margin-left: -690px;
     margin-top: 90px;
@@ -309,14 +316,17 @@ span.dot:hover {
 }
 
 .halfcircle2 {
-    height: 950px;
-    width: 950px;
+    height: 700px;
+    width: 700px;
     border-radius: 50%;
     border: 6px dotted #A69D8D;
     transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 /*    margin-left: -60px;*/
     margin-top: 1790px;
-    transform: translate(500px);
+    transform: translate(1790px, 500px);
 z-index: 1;
     animation: rotation 25s infinite linear;
 }
@@ -326,6 +336,9 @@ z-index: 1;
     width: 150px;
     border-radius: 50%;
     border: 6px dotted #A69D8D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform: rotate(45deg);
     /*
     transform: translateX(190px);
@@ -353,18 +366,24 @@ z-index: 1;
     border: 8px solid #A69D8D;
     margin-top: 140px;
     margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
 .planet2 {
-    height: 300px;
-    width: 300px;
+    height: 340px;
+    width: 340px;
     border-radius: 50%;
     border: 3px solid #A69D8D;
     margin-top: 1330px;
     margin-left: -500px;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -374,6 +393,9 @@ z-index: 1;
     border-radius: 50%;
     border: 8px solid #A69D8D;
     margin-top: 2040px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: -830px;
     z-index: 1;
 }
@@ -384,8 +406,10 @@ z-index: 1;
     border-radius: 50%;
     border: 6px solid #A69D8D;
     margin-top: 2030px;
-/*    margin-left: -500px;*/
-        transform: translate(500px);
+    transform: translate(500px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -397,18 +421,12 @@ z-index: 1;
     margin-top: 940px;
     margin-right: 160px;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.filledin2 {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    background-color: #A69D8D;
-    margin-top: 40px;
-    margin-left: -120px;
-
-}
 
 .filledin3 {
     height: 450px;
@@ -417,6 +435,9 @@ z-index: 1;
     background-color: #A69D8D;
     margin-top: 700px;
     margin-right: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -426,16 +447,23 @@ z-index: 1;
     width: 460px;
     border-radius: 50%;
     background-color: #A69D8D;
-    margin-top: 1680px;
-    margin-left: -750px;
+    transform: translate(-540px,1700px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .filledin5 {
     height: 240px;
     width: 240px;
     border-radius: 50%;
     background-color: #A69D8D;
     margin-top: 1490px;
-transform: translate(780px);
+    transform: translate(780px);
+    transform: translate(-60px,40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .filledin6 {
@@ -444,8 +472,10 @@ transform: translate(780px);
     border-radius: 50%;
     background-color: #A69D8D;
     margin-top: 2490px;
-
-transform: translate(210px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-190px,130px);
 }
 .circleone {
     height: 20px;
