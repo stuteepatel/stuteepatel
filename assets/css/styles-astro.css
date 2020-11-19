@@ -227,8 +227,11 @@ span.dot:hover {
     width: 180px;
     border-radius: 50%;
     background-color: #A69D8D;
+/*
     margin-top: 40px;
     margin-right: -100px;
+*/
+    transform: translate(120px,20px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,16 +305,17 @@ span.dot:hover {
 
 
 .halfcircle {
-    height: 900px;
-    width: 900px;
+    height: 1000px;
+    width: 1000px;
     border-radius: 50%;
     border: 6px dotted #A69D8D;
     display: flex;
     justify-content: center;
     align-items: center;
     transform: rotate(45deg);
-    margin-left: -690px;
+    margin-left: -890px;
     margin-top: 90px;
+    
     animation: rotation 25s infinite linear;
 }
 
@@ -324,9 +328,8 @@ span.dot:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-/*    margin-left: -60px;*/
-    margin-top: 1790px;
-    transform: translate(1790px, 500px);
+    margin-top: 2000px;
+/*    transform: translate(-900px,100px);*/
 z-index: 1;
     animation: rotation 25s infinite linear;
 }
@@ -378,7 +381,7 @@ z-index: 1;
     width: 340px;
     border-radius: 50%;
     border: 3px solid #A69D8D;
-    margin-top: 1330px;
+    margin-top: 1380px;
     margin-left: -500px;
     z-index: 1;
     display: flex;
@@ -392,7 +395,7 @@ z-index: 1;
     width: 370px;
     border-radius: 50%;
     border: 8px solid #A69D8D;
-    margin-top: 2040px;
+    margin-top: 2440px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -418,8 +421,8 @@ z-index: 1;
     width: 200px;
     border-radius: 50%;
     background-color: #A69D8D;
-    margin-top: 940px;
-    margin-right: 160px;
+    margin-top: 1050px;
+    margin-right: 170px;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -434,7 +437,7 @@ z-index: 1;
     border-radius: 50%;
     background-color: #A69D8D;
     margin-top: 700px;
-    margin-right: -100px;
+    transform: translate(360px,70px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -447,7 +450,7 @@ z-index: 1;
     width: 460px;
     border-radius: 50%;
     background-color: #A69D8D;
-    transform: translate(-540px,1700px);
+    transform: translate(-540px,1780px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -459,8 +462,8 @@ z-index: 1;
     border-radius: 50%;
     background-color: #A69D8D;
     margin-top: 1490px;
-    transform: translate(780px);
-    transform: translate(-60px,40px);
+/*    transform: translate(780px);*/
+    transform: translate(-60px,80px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -475,7 +478,7 @@ z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(-190px,130px);
+    transform: translate(-540px,360px);
 }
 .circleone {
     height: 20px;
