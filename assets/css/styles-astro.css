@@ -216,11 +216,13 @@ span.dot:hover {
 .filledin:hover {
     background-color: #b56728;
     transition: all .3s ease-in-out;
+ transform: scale(1.2);
+
 }
 
 .filledin2:hover {
-    background-color: #b56728;
-    transition: all .3s ease-in-out;
+    background-color: #b56728;         transition: all .3s ease-in-out;
+
 }
 
 .filledin2 {
@@ -242,6 +244,8 @@ span.dot:hover {
 .filledin3:hover {
     background-color: #b56728;
     transition: all .3s ease-in-out;
+/*         transform: scale(1.2);*/
+
 }
 
 .filledin4:hover {
@@ -251,10 +255,13 @@ span.dot:hover {
 .filledin5:hover {
     background-color: #b56728;
     transition: all .3s ease-in-out;
+/*         transform: scale(1.2);*/
+
 }
 .filledin6:hover {
     background-color: #b56728;
     transition: all .3s ease-in-out;
+    
 }
 
 .halfcircle:hover {
@@ -277,11 +284,15 @@ span.dot:hover {
 .planet:hover {
     border: 8px solid #b56728;
     transition: all .3s ease-in-out;
+         transform: scale(1.2);
+
 }
 
 .planet2:hover {
     border: 3px solid #b56728;
     transition: all .3s ease-in-out;
+     transform: scale(1.2);
+
 }
 
 .planetsmall:hover {
@@ -299,7 +310,8 @@ span.dot:hover {
     border: 8px solid #b56728;
     transition: all .3s ease-in-out;
 /*    background-color: #b56728;*/
-    opacity: 85%;
+             transform: scale(1.2);
+
 }
 
 .container:hover .planet3 {
@@ -385,6 +397,8 @@ z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .3s ease-in-out;
+
 
 
 }
@@ -400,6 +414,8 @@ z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .3s ease-in-out;
+
 
 }
 
@@ -414,6 +430,8 @@ z-index: 1;
     align-items: center;
     margin-left: -830px;
     z-index: 1;
+        transition: all .3s ease-in-out;
+
 }
 
 .planet4 {
@@ -440,6 +458,7 @@ z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .3s ease-in-out;
 
 }
 
@@ -454,6 +473,8 @@ z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+        transition: all .3s ease-in-out;
+
 
 }
 
@@ -480,6 +501,8 @@ z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+        transition: all .3s ease-in-out;
+
 
 }
 .filledin6 {
